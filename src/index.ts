@@ -1,3 +1,6 @@
+import dotenv from 'dotenv'
+dotenv.config() //precisa vim antes de importar qualquer coisa
+
 import { startWebServer } from "./app";
 import { starDatabase } from "./services/database/app-data-souce";
 
